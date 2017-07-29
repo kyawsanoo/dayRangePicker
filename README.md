@@ -1,11 +1,12 @@
 # About #
 
-<p><font color="blue">This is a day range picker customizing mainly from [__Date Time Range Picker__](https://github.com/skedgo/DateTimeRangePicker)
- in accordance with my app's requirements on it.
+<p><font color="blue">This is a day range picker customizing mainly from
+https://github.com/skedgo/DateTimeRangePicker
+ in accordance with my app's needs.
 </p>
 
 # How to use #
-<p>compile 'mm.kso:DayRangePicker:1.0.0'</p>
+<p>compile 'mm.kso:DayRangePicker:1.0.1'</p>
 
 ## Library ##
 
