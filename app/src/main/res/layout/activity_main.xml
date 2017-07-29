@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:id="@+id/layout_day_range"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="mm.kso.">
+
+    <EditText
+        android:id="@+id/textView_DepartDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:hint="@string/depart_hint"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/text1"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textView_ReturnDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:hint="@string/return_hint"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/text1"
+        android:textStyle="bold" />
+
+</LinearLayout>
+<Button
+    android:layout_marginTop="50dp"
+    android:layout_below="@id/layout_day_range"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/reset"
+    android:text="@string/reset"/>
+</RelativeLayout>

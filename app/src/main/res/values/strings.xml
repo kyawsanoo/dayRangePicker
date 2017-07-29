@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DayRangePicker</string>
+    <string name="depart_hint"><font size="12">Touch To Set Start Date</font></string>
+    <string name="return_hint"><font size="12">Touch To Set End Date</font></string>
+    <string name="reset">Reset</string>
+    <string name="info">Info</string>
+</resources>
